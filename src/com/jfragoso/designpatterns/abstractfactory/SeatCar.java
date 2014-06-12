@@ -3,10 +3,15 @@ package com.jfragoso.designpatterns.abstractfactory;
 /**
  * Created by jonathanfragoso on 11/06/14.
  */
-public class FerrariFactory implements CarsFactory{
+public class SeatCar implements Car{
 
     @Override
-    public Car buildCar() {
-        return new FerrariCar();
+    public void paint() {
+
+    }
+
+    @Override
+    public void mountEngine() {
+
     }
 }
